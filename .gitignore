@@ -1,0 +1,120 @@
+# =========================
+# Node modules
+# =========================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# =========================
+# Environment variables
+# =========================
+.env
+.env.*
+!.env.example
+.env.local
+.env.*.local
+
+# =========================
+# Build files
+# =========================
+dist/
+build/
+.next/
+out/
+*.tsbuildinfo
+
+# =========================
+# Frontend (Vite)
+# =========================
+.vite/
+.vercel/
+
+# =========================
+# Logs
+# =========================
+logs/
+*.log
+.pnpm-debug.log*
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*.swp
+*.swo
+
+# =========================
+# IDE / Editor
+# =========================
+.vscode/
+.idea/
+*.iml
+*.iws
+*.ipr
+.c9/
+.sublime-project
+.sublime-workspace
+*.swp
+*.swo
+*~
+
+# =========================
+# Docker
+# =========================
+docker-compose.override.yml
+.docker/
+
+# =========================
+# Database
+# =========================
+postgres_data/
+*.sqlite
+*.db
+
+# =========================
+# Supabase (local)
+# =========================
+.supabase/
+.env.supabase
+
+# =========================
+# Testing
+# =========================
+coverage/
+.nyc_output/
+junit.xml
+
+# =========================
+# Cache
+# =========================
+.cache/
+.eslintcache
+.stylelintcache
+tmp/
+temp/
+*.cache
+
+# =========================
+# Package lock files (optional - uncomment if needed)
+# =========================
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
+# =========================
+# Misc
+# =========================
+.turbo/
+dist-ssr/
+*.egg-info/
+__pycache__/
+*.py[cod]
